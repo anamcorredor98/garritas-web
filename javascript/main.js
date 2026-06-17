@@ -123,19 +123,19 @@ const paseos = [
 const helados = [
   { nombre:"Helado de Pollo y Zanahoria",
     ingredientes:"🍗 Pollo · 🥕 Zanahoria · 🫙 Yogur griego (probiótico)",
-    precio:"$5.000", unidad:"c/u", emoji:"🍦", bg:"#FAD4B8", img:"/img/helados-pollo.png" },
+    precio:"$5.000", unidad:"c/u", emoji:"🍦", bg:"#FAD4B8", img:"img/helados-pollo.png" },
   { nombre:"Helado de Carne y Remolacha",
     ingredientes:"🥩 Carne · 🫚 Remolacha · 🫙 Yogur griego (probiótico)",
-    precio:"$5.000", unidad:"c/u", emoji:"🍦", bg:"#F5C0C0", img:"/img/helados-carne.png" }
+    precio:"$5.000", unidad:"c/u", emoji:"🍦", bg:"#F5C0C0", img:"img/helados-carne.png" }
 ];
 
 const galletas = [
   { nombre:"Galletas de Pollo y Zanahoria",
     ingredientes:"🍗 Pollo · 🥕 Zanahoria · 🌾 Avena · 🌿 Apio · 🥚 Huevo",
-    precio:"$6.000", unidad:"paquete × 7", emoji:"🍪", bg:"#E8DCFF", img:"/img/galletas-pollo.png" },
+    precio:"$6.000", unidad:"paquete × 7", emoji:"🍪", bg:"#E8DCFF", img:"img/galletas-pollo.png" },
   { nombre:"Galletas de Carne y Remolacha",
     ingredientes:"🥩 Carne · 🫚 Remolacha · 🌾 Avena · 🌿 Apio · 🥚 Huevo",
-    precio:"$6.000", unidad:"paquete × 7", emoji:"🍪", bg:"#D0BBFF", img:"/img/galletas-carne.png" }
+    precio:"$6.000", unidad:"paquete × 7", emoji:"🍪", bg:"#D0BBFF", img:"img/galletas-carne.png" }
 ];
 
 
@@ -178,7 +178,7 @@ function productCard(p) {
           <div class="product-price">${p.precio}</div>
           <div class="product-unit">${p.unidad}</div>
         </div>
-        <a href="https://wa.me/573000000000?text=Hola%2C%20quiero%20pedir%20${encodeURIComponent(p.nombre)}%20%F0%9F%90%BE"
+        <a href="https://wa.me/573245243535?text=Hola%2C%20quiero%20pedir%20${encodeURIComponent(p.nombre)}%20%F0%9F%90%BE"
            target="_blank" rel="noopener" class="btn-order">Pedir</a>
       </div>
     </div>

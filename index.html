@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Garritas 🐾 — Amor en cada pisada</title>
+  <meta name="description" content="Pet sitting, paseos y treats artesanales hechos con amor. Garritas — porque tus peluditos merecen lo mejor." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="header" id="header">
+    <nav class="navbar">
+      <a href="#inicio" class="nav-logo" data-page="inicio">
+        <span class="nav-logo-paw">🐾</span>
+        <div>
+          <span class="nav-logo-name">Garritas</span>
+          <span class="nav-logo-tagline">Amor en cada pisada</span>
+        </div>
+      </a>
+
+      <!-- Desktop links -->
+      <div class="nav-links-desktop">
+        <a href="#nosotros" data-page="nosotros">Nosotros</a>
+        <a href="#servicios" data-page="servicios">Servicios</a>
+        <a href="#treats"    data-page="treats">Treats</a>
+        <a href="#contacto"  data-page="contacto">Contacto</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/573245243535?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Garritas%20%F0%9F%90%BE"
+           target="_blank" rel="noopener" class="nav-cta">Haz tu pedido</a>
+        <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="nav-mobile" id="navMobile">
+      <a href="#inicio"    class="nav-mobile-link" data-close data-page="inicio">🏠 Inicio</a>
+      <a href="#nosotros"  class="nav-mobile-link" data-close data-page="nosotros">💜 Nosotros</a>
+      <a href="#servicios" class="nav-mobile-link" data-close data-page="servicios">⭐ Servicios</a>
+      <a href="#treats"    class="nav-mobile-link" data-close data-page="treats">🍬 Treats</a>
+      <a href="#contacto"  class="nav-mobile-link" data-close data-page="contacto">💬 Contacto</a>
+      <div class="nav-mobile-divider"></div>
+      <div class="nav-mobile-contact">
+        <a href="https://wa.me/573245243535" target="_blank" rel="noopener" class="btn btn--whatsapp">WhatsApp</a>
+        <a href="https://instagram.com/garritas.pancitas" target="_blank" rel="noopener" class="btn btn--instagram">Instagram</a>
+      </div>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <main id="main">
+
+    <!-- ==============================
+         PÁGINA 1 · INICIO / HERO
+         ============================== -->
+    <section class="page page-hero" id="inicio">
+      <div class="hero-blob hero-blob--1"></div>
+      <div class="hero-blob hero-blob--2"></div>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-overline">Pet care con propósito</p>
+          <h1 class="hero-h1">
+            Tu peludito<br/>
+            merece lo<br/>
+            <span class="accent">mejor</span> 🐾
+          </h1>
+          <p class="hero-tagline">"Amor en cada pisada"</p>
+          <p class="hero-desc">
+            En Garritas cuidamos a tus mascotas como si fueran las nuestras — con amor genuino, snacks artesanales y los servicios que se merecen.
+          </p>
+          <div class="hero-ctas">
+            <a href="#servicios" class="btn btn--primary" data-page="servicios">Ver servicios</a>
+            <a href="#nosotros"  class="btn btn--outline"  data-page="nosotros">Conoce Garritas</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-carousel" id="hero-img">
+            <div class="carousel-track">
+              <div class="carousel-slide active">
+                <img src="/img/logo.png" alt="Garritas logo"/>
+              </div>
+              <div class="carousel-slide">
+                <img src="/img/carusel2.png" alt="Paseos divertidos y seguros"/>
+              </div>
+              <div class="carousel-slide">
+                <img src="/img/carusel3.png" alt="Tu peludito merece lo mejor"/>
+              </div>
+              <div class="carousel-slide">
+                <img src="/img/carusel4.png" alt="Helados naturales para perros"/>
+              </div>
+            </div>
+            <div class="carousel-dots">
+              <button class="carousel-dot active" data-index="0" aria-label="Imagen 1"></button>
+              <button class="carousel-dot" data-index="1" aria-label="Imagen 2"></button>
+              <button class="carousel-dot" data-index="2" aria-label="Imagen 3"></button>
+              <button class="carousel-dot" data-index="3" aria-label="Imagen 4"></button>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="hero-stat-num">100%</span>
+              <span class="hero-stat-label">Natural</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">100%</span>
+              <span class="hero-stat-label">De atención</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">100%</span>
+              <span class="hero-stat-label">Con amor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         PÁGINA 2 · NOSOTROS
+         ============================== -->
+    <section class="page page-about" id="nosotros">
+      <div class="about-inner">
+        <div class="about-grid">
+
+          <div class="about-visual">
+            <div class="about-img-wrap" id="about-img">
+              <img src="/img/av.png" alt="El equipo de Garritas" />
+            </div>
+            <div class="about-badge">
+              <span class="about-badge-num">🐾</span>
+              <span class="about-badge-text">Hecho por una mamá <br/>de peluditos</span>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <p class="section-label">Quiénes somos</p>
+            <h2 class="section-title-lg">Porque sabemos lo que<br/>es <span class="accent">querer a un peludo</span></h2>
+            <p class="section-body">
+              Garritas nació de una verdad que todo dueño de mascota conoce: <strong>no es fácil encontrar a alguien que cuide a tu peludo como tú lo harías.</strong>
+              <br/><br/>
+              Soy Ana, la mamá de una peludita, con mascotas propias que entiende lo que significa confiar a alguien ese ser que lo es todo para ti. Se que ellos requieren atención, paciencia y amor real, no solo alguien que pase por ahí a darles agua.
+              <br/><br/>
+              Por eso cree Garritas: <em>hecho por una humana con mascotas, para humanos con mascotas.</em> Pero sobre todo, hecho <strong>para los peluditos</strong> — para que ellos estén bien, felices y seguros, y que tú puedas tener paz mental.
+            </p>
+
+            <div class="about-values">
+              <div class="value-item">
+                <div class="value-icon">🐾</div>
+                <div>
+                  <p class="value-title">El foco son ellos</p>
+                  <p class="value-desc">Garritas no es un negocio más. Nuestra meta son los peluditos — que tengan lo mejor, que estén felices, que se sientan amados.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon">💚</div>
+                <div>
+                  <p class="value-title">Natural de verdad</p>
+                  <p class="value-desc">Todos treats son 100% orgánicos, sin conservantes ni químicos añadidos. Lo que le damos a un peludo, lo podemos comer nosotros los humanos.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon">🔒</div>
+                <div>
+                  <p class="value-title">Tranquilidad para ti</p>
+                  <p class="value-desc">Fotos, actualizaciones y comunicación constante. Para que incluso cuando no estés, sepas que tu peludo está en las mejores manos.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-strip">
+              <div class="team-avatars">
+                <div class="team-avatar" id="avatar-ana">A</div>
+                <div class="team-avatar" id="avatar-michelle">V</div>
+              </div>
+              <div class="team-info">
+                <p class="team-label">El equipo Garritas</p>
+                <p class="team-names">Ana & Valky 🐾</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         PÁGINA 3 · SERVICIOS (tabs)
+         ============================== -->
+    <section class="page page-services" id="servicios">
+      <div class="services-inner">
+        <div class="services-header">
+          <p class="section-label section-label--mint" style="justify-content:center">Lo que hacemos</p>
+          <h2 class="section-title-lg" style="text-align:center">Servicios pensados<br/>para <span class="accent">cada peludo</span></h2>
+          <p class="section-body" style="text-align:center; margin:0 auto;">
+            Desde pet sitting en nuestra casa hasta paseos y visitas a domicilio — cada servicio diseñado para que tu mascota esté cómoda, activa y feliz.
+          </p>
+        </div>
+
+        <div class="service-tabs">
+          <button class="tab-btn active" data-tab="petsitting">🏡 Pet Sitting</button>
+          <button class="tab-btn" data-tab="visitas">🚪 Visitas</button>
+          <button class="tab-btn" data-tab="paseos">🦮 Paseos</button>
+        </div>
+
+        <!-- Panel: Pet Sitting -->
+        <div class="tab-panel active" id="tab-petsitting">
+          <div class="tab-panel-header">
+            <h3>Pet Sitting en nuestra casa 🏡</h3>
+            <p>Tu peludo en un ambiente cálido y seguro — como en casa, pero con más mimos.</p>
+          </div>
+          <div class="price-grid" id="grid-petsitting"></div>
+          <p class="service-note">📸 Fotos diarias en WhatsApp · 💊 Si tu peludo lo necesita, se le dan sus medicamentos</p>
+        </div>
+
+        <!-- Panel: Visitas -->
+        <div class="tab-panel" id="tab-visitas">
+          <div class="tab-panel-header">
+            <h3>Visitas a domicilio 🚪</h3>
+            <p>Vamos a la casa de tu mascota — sin estrés de traslados, en su propio entorno.</p>
+          </div>
+          <div class="price-grid" id="grid-visitas"></div>
+          <p class="service-note">Disponible para perros y gatos · 📍 Consultar zona de cobertura</p>
+        </div>
+
+        <!-- Panel: Paseos -->
+        <div class="tab-panel" id="tab-paseos">
+          <div class="tab-panel-header">
+            <h3>Paseos 🦮</h3>
+            <p>Caminatas llenas de exploración, olfateo y socialización.</p>
+          </div>
+          <div class="price-grid" id="grid-paseos"></div>
+          <p class="service-note">Grupos pequeños · 📸 Fotos del paseo en tu WhatsApp</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================
+         PÁGINA 4 · TREATS
+         ============================== -->
+    <section class="page page-treats" id="treats">
+      <div class="treats-inner">
+        <div class="treats-header">
+          <p class="section-label section-label--purple" style="justify-content:center">GarriCaprichos</p>
+          <h2 class="section-title-lg" style="text-align:center">Snacks que hacen<br/>volar la <span class="accent">colita</span> 🐾</h2>
+          <p class="section-body" style="text-align:center; margin:0 auto 20px;">
+            Cada treat está hecho a mano con ingredientes orgánicos y naturales. Sin conservantes, sin químicos añadidos, sin artificiales. Solo amor.
+          </p>
+        </div>
+        <div class="natural-chips">
+          <span class="n-chip">🌿 Orgánico</span>
+          <span class="n-chip">🚫 Sin químicos añadidos</span>
+          <span class="n-chip">🧪 Sin conservantes</span>
+          <span class="n-chip">🫙 Con probióticos</span>
+          <span class="n-chip">✋ Hecho a mano</span>
+          <span class="n-chip">🐾 Veterinario-friendly</span>
+        </div>
+
+        <!-- Helados -->
+        <div class="treat-section">
+          <div class="treat-section-header">
+            <div class="treat-title-group">
+              <div class="treat-icon">🍦</div>
+              <div class="treat-name">Helados</div>
+              <div class="treat-slogan">"Pancitas llenas, colas que vuelan" ✨</div>
+            </div>
+            <a href="https://wa.me/573245243535?text=Hola%2C%20quiero%20pedir%20helados%20de%20Garritas%20%F0%9F%90%BE"
+               target="_blank" rel="noopener" class="btn btn--outline">Pedir ahora</a>
+          </div>
+          <div class="treat-divider"></div>
+          <div class="product-grid" id="grid-helados"></div>
+        </div>
+
+        <!-- Galletas -->
+        <div class="treat-section">
+          <div class="treat-section-header">
+            <div class="treat-title-group">
+              <div class="treat-icon">🍪</div>
+              <div class="treat-name">Galletas</div>
+              <div class="treat-slogan">"Tan ricas que tu humano se las querrá comer" 😄</div>
+            </div>
+            <a href="https://wa.me/573245243535?text=Hola%2C%20quiero%20pedir%20galletas%20de%20Garritas%20%F0%9F%90%BE"
+               target="_blank" rel="noopener" class="btn btn--outline">Pedir ahora</a>
+          </div>
+          <div class="treat-divider"></div>
+          <div class="product-grid" id="grid-galletas"></div>
+        </div>
+
+      </div>
+    </section>
+<!-- ==============================
+     SECCIÓN · VIDEOS
+     ============================== -->
+<section class="page-videos" id="videos">
+  <div class="videos-inner">
+    <div class="videos-header">
+      <p class="section-label section-label--mint" style="justify-content:center">En acción</p>
+      <h2 class="section-title-lg" style="text-align:center">
+        Mira a los peluditos<br/>
+        <span class="accent">disfrutar</span> 🍦
+      </h2>
+      <p class="section-body" style="text-align:center; margin: 0 auto 40px;">
+        Helados 100% naturales, colas que vuelan y pancitas felices. Esto es Garritas.
+      </p>
+    </div>
+    <div class="videos-grid">
+      <div class="video-card">
+        <video src="/video/helado1.mp4" autoplay loop muted playsinline></video>
+      </div>
+      <div class="video-card">
+        <video src="/video/helado2.mp4" autoplay loop muted playsinline></video>
+      </div>
+      <div class="video-card">
+        <video src="/video/helado3.mp4" autoplay loop muted playsinline></video>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- ==============================
+         PÁGINA 5 · CONTACTO
+         ============================== -->
+    <section class="page page-contact" id="contacto">
+      <div class="contact-blob contact-blob--1"></div>
+      <div class="contact-blob contact-blob--2"></div>
+      <div class="contact-inner">
+        <div class="contact-grid">
+          <div class="contact-text">
+            <p class="section-label">Hablemos</p>
+            <h2 class="section-title-lg">¿Listo para darle<br/>lo mejor a tu <span style="color:var(--naranja-light)">peludo?</span></h2>
+            <p class="section-body">Escríbenos por WhatsApp o Instagram — respondemos rápido y con mucho cariño. Tu peludo merece lo mejor, y nosotras estamos aquí para dárselo.</p>
+
+            <div class="contact-channels">
+              <a href="https://wa.me/573245243535?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Garritas%20%F0%9F%90%BE"
+                 target="_blank" rel="noopener" class="contact-channel">
+                <span class="contact-channel-icon">
+                  <svg viewBox="0 0 24 24" fill="#25D366" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                </span>
+                <div>
+                  <p class="contact-channel-label">WhatsApp</p>
+                  <p class="contact-channel-value">Escríbenos directo — respuesta rápida</p>
+                </div>
+              </a>
+              <a href="https://instagram.com/garritas.pancitas"
+                 target="_blank" rel="noopener" class="contact-channel">
+                <span class="contact-channel-icon">
+                  <svg viewBox="0 0 24 24" fill="#E1306C" width="28" height="28"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </span>
+                <div>
+                  <p class="contact-channel-label">Instagram</p>
+                  <p class="contact-channel-value">@garritas.pancitas</p>
+                </div>
+              </a>
+            </div>
+
+            <a href="https://wa.me/573245243535?text=Hola%2C%20quiero%20hacer%20un%20pedido%20%F0%9F%90%BE"
+               target="_blank" rel="noopener" class="btn btn--white btn--lg">
+              Haz tu pedido ahora 🐾
+            </a>
+          </div>
+
+            <div class="contact-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.217021574679!2d-74.05317302427416!3d4.732326641381037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f856cf545a11d%3A0xc8970807d13b8214!2sCl.%20150%20%2345-44%2C%20Bogot%C3%A1!5e0!3m2!1sen!2sco!4v1781601058303!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">"
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">🐾 <span>Garritas</span></div>
+      <p class="footer-copy">Hecho con amor · Bogotá, Colombia · &copy; 2025</p>
+      <div class="footer-socials">
+        <a href="https://instagram.com/garritas.pancitas" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="white" width="22" height="22"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a href="https://wa.me/573245243535" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="white" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../javascript/main.js"></script>
+</body>
+</html>
